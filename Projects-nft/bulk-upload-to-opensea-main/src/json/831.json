@@ -1,0 +1,39 @@
+{
+  "name": "sword-basic #831",
+  "description": "Black Chicken Test v1",
+  "image": "ipfs://NewUriToReplace/831.png",
+  "dna": "81a7e3c5dfd2b50f151c8100d7d39e8f37900679",
+  "edition": 831,
+  "date": 1659516284224,
+  "attributes": [
+    {
+      "trait_type": "0.background",
+      "value": "nft_0039_frame"
+    },
+    {
+      "trait_type": "1.bar",
+      "value": "nft_0038_bar"
+    },
+    {
+      "trait_type": "2.blade_fire",
+      "value": "nft_0007_basic_blade_green_fire"
+    },
+    {
+      "trait_type": "3.blade_blood",
+      "value": "nft_0025_basic_blade_blood_green"
+    },
+    {
+      "trait_type": "4.crossguard1",
+      "value": "nft_0015_crossguard"
+    },
+    {
+      "trait_type": "5.crossguard2",
+      "value": "nft_0011_black_crossguard"
+    },
+    {
+      "trait_type": "6.accessories",
+      "value": "nft_0005_purple_gem"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

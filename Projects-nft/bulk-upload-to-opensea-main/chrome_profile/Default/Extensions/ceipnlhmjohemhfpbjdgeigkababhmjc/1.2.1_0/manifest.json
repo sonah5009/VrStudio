@@ -1,0 +1,28 @@
+{
+   "browser_action": {
+      "default_popup": "options.html",
+      "default_title": "Change the Options"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [  ],
+      "js": [ "jquery-2.1.4.min.js", "common.js", "myscript.js" ],
+      "matches": [ "https://*/*", "http://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "I'm not robot captcha clicker",
+   "icons": {
+      "128": "icons/brt-logo128.png",
+      "16": "icons/brt-logo16.png",
+      "48": "icons/brt-logo48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjXZXh3hQpdUnnZQQNHq3N1b8U03UTsvBQqa7LKpgwtJ5NtsyCoI/o1w5ZcOSEdkl19LxrItJ9j1B8nJxLe8jEyqQbMIHHYiR5ngM6vksmkpCYSLAe8x3daHGO4PlRGPGuDFPwGolKMoN8TWBLuk4bc7Qf+ANoEwD8lpYQn+QCyAKRCynK4ITzeDSbJDEZLQpDb9kcRPSsdVtfm+VjZ47/E+Ig0fTzOeXw2Yj8AMgr8BhHoqp9fQqebd2NdsBXnk5+6/JY5ExWx8fPsBLAB3FJ9gaBUkBhu43USYfqwgeeDjcY1XA8BF4IW06jSpLoGFTjVhxWqdiLBlOglShsnznXQIDAQAB",
+   "manifest_version": 2,
+   "name": "I'm not robot captcha clicker",
+   "options_page": "options.html",
+   "permissions": [ "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.1",
+   "web_accessible_resources": [ "options.html", "Privacy-Policy.html" ]
+}
